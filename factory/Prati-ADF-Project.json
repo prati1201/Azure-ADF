@@ -1,0 +1,15 @@
+{
+	"name": "Prati-ADF-Project",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c960f31f-478b-4032-8bb1-f37b21d6e4df",
+		"tenantId": "8fa1f73c-0440-490a-9470-40f77fbc2592"
+	}
+}

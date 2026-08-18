@@ -1,0 +1,17 @@
+{
+	"name": "FileServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "\\\\LAPTOP-U9C84VCJ\\FlightData",
+			"userId": "laptop-u9c84vcj\\prati",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5YTc0NjZkMS05OWJjLTQwNjctYjE0Mi05NDVjNTUxNzlmMmUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "On-Prem-IR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
